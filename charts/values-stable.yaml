@@ -36,14 +36,14 @@ image:
   ##
   registry: docker.io/webdeva
   name: k8sworkshop
-  tag: 0.0.5
+  tag: 0.0.6
 
   ## Docker Registry/Hub image pull policy
   ##
   pullPolicy: Always
 
 ingress:
-  ## If true, Ingress will be created
+  ## If tge, Ingress will be created
   ##
   enabled: true
 
