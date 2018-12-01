@@ -36,7 +36,7 @@ image:
   ##
   registry: docker.io/webdeva
   name: k8sworkshop
-  tag: 0.0.6
+  tag: 0.0.7
 
   ## Docker Registry/Hub image pull policy
   ##

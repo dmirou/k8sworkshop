@@ -10,7 +10,7 @@ PORT?=8000
 DIAG_PORT?=3001
 
 # Current version and commit
-RELEASE?=0.0.6
+RELEASE?=0.0.7
 COMMIT?=$(shell git rev-parse --short HEAD)
 BUILD_TIME?=$(shell date -u '+%Y-%m-%d_%H:%M:%S')
 
@@ -22,7 +22,7 @@ CONTAINER_IMAGE?=${REGISTRY}/${CONTAINER_NAME}
 VALUES?=values-stable
 
 build:
-	docker build -t $(CONTAINER_IMAGE):$(RELEASE) .
+	docker build --no-cache -t $(CONTAINER_IMAGE):$(RELEASE) .
 
 push: build
 	docker push $(CONTAINER_IMAGE):$(RELEASE)
