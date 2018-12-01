@@ -4,13 +4,13 @@ GOARCH?=amd64
 
 PROJECT?=github.com/dmirou/k8sworkshop
 BUILD_PATH?=cmd/k8sworkshop
-APP?=k8sworkshop
+APP?=nsk
 
 PORT?=8080
 DIAG_PORT?=3001
 
 # Current version and commit
-RELEASE?=0.0.8
+RELEASE?=0.0.9
 COMMIT?=$(shell git rev-parse --short HEAD)
 BUILD_TIME?=$(shell date -u '+%Y-%m-%d_%H:%M:%S')
 

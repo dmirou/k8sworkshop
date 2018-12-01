@@ -1,6 +1,6 @@
 name: k8sworkshop
 description: A Helm charts for Kubernetes application
-version: 0.0.8
+version: 0.0.9
 home: https://k8s.community/
 sources:
   - https://github.com/dmirou/k8sworkshop
