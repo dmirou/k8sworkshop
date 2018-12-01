@@ -11,9 +11,9 @@ spec:
   - host: services.k8s.community
     http:
       paths:
-      - path: /dmirou/hello
+      - path: /dmirou/k8sworkshop
         backend:
-          serviceName: hello-app
+          serviceName: k8sworkshop
           servicePort: 8080
   tls:
   - hosts:
