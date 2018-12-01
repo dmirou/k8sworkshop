@@ -10,7 +10,7 @@ PORT?=8080
 DIAG_PORT?=3001
 
 # Current version and commit
-RELEASE?=0.0.7
+RELEASE?=0.0.8
 COMMIT?=$(shell git rev-parse --short HEAD)
 BUILD_TIME?=$(shell date -u '+%Y-%m-%d_%H:%M:%S')
 
