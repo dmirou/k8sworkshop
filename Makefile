@@ -6,7 +6,7 @@ PROJECT?=github.com/dmirou/k8sworkshop
 BUILD_PATH?=cmd/k8sworkshop
 APP?=k8sworkshop
 
-PORT?=8000
+PORT?=8080
 DIAG_PORT?=3001
 
 # Current version and commit
